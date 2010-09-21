@@ -8,4 +8,7 @@ GUID at every connection. That's why I wrote this small plugin.
 LimitCon checks how often the name of a connecting player was used, but it
 counts only players which connected with their GUID only once. If this number
 is higher as the threshold defined in the xml file, the player get banned for
-some time (defined in the xml file also)
+some time (defined in the xml file also).
+
+See also: http://github.com/bmamba/b3-plugin-limitcon
+
