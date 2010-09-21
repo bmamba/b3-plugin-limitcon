@@ -1,0 +1,16 @@
+<configuration plugin="limitcon">
+	<settings name="settings">
+		<!-- A comma separated list of ingame names which
+		     should be excluded-->
+		<set name='exclude_names'></set>
+		<!-- 1: Exclude players with admin rights
+		     0: Dont exclude such players -->
+		<set name='exclude_admins'>1</set>
+		<!-- Ingame names, which were used at least max_connections,
+		     should be banned -->
+		<set name='max_connections'>15</set>
+		<!-- Duration of temp ban in minutes, so for example
+		     one day = 60*24 = 1440 -->
+		<set name='duration'>1440</set>
+	</settings>
+</configuration>

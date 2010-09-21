@@ -1,0 +1,11 @@
+This plugin is testet for Urban Terror 4.1 and will be needless for 4.2 hopefully.
+
+I noticed that some players have a new GUID every time they connect (same name,
+but other GUID). This players were identificated as cheaters or at least their
+behaviour were fishy. For me it seems that there exists cheats which change the
+GUID at every connection. That's why I wrote this small plugin.
+
+LimitCon checks how often the name of a connecting player was used, but it
+counts only players which connected with their GUID only once. If this number
+is higher as the threshold defined in the xml file, the player get banned for
+some time (defined in the xml file also)
